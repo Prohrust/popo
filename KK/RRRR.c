@@ -4,7 +4,7 @@
 // Test #2 @wi.runs_2 COMP-556 ReMoTe i
 int i = 0;
 
-
+// Test #2 @wi.runs_2 COMP-556 Аля-Улю
 typedef int *int_ptr;
 
 
