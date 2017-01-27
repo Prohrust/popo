@@ -13,7 +13,7 @@ int x;
 // Test #2 @wi.runs_2 COMP-556 Rev2
 enum days myDay;
 
-
+// Test #2 @wi.runs_2 COMP-556 Rev3
 int max(int a, int b);
 
 
