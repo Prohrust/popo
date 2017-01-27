@@ -10,7 +10,7 @@ typedef int *int_ptr;
 // Test #2 @wi.runs_2 COMP-556 REV1
 int x;
 
-
+// Test #2 @wi.runs_2 COMP-556 Rev2
 enum days myDay;
 
 
