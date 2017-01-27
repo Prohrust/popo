@@ -7,7 +7,7 @@ int i = 0;
 // Test #2 @wi.runs_2 COMP-536 11111
 typedef int *int_ptr;
 
-
+// Test #2 @wi.runs_2 COMP-536 22222
 int x;
 
 
