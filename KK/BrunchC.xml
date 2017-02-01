@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+<testsuite name="suite">
+<!-- WI parser test #1 @wi.branches COMP-555 OO_branch -->
+<testcase classname="com.polarion.core.util.tests.base64.Base64PerformanceTest" name="testStreams" time="0.259"/>
+<testcase classname="com.polarion.usdp.persistence.tests.word.performance.WordPerformanceTests" name="testEditWorkItem" time="0.000">
+<failure></failure>
+<failure></failure>
+<failure></failure>
+<failure message="uri: subterra:data-service:objects:/default/demolibrary${WorkItem}DEMOLIBRARY-46" type="com.polarion.platform.persistence.UnresolvableObjectException">
+
+com.polarion.platform.persistence.UnresolvableObjectException: uri: subterra:data-service:objects:/default/demolibrary${WorkItem}DEMOLIBRARY-46
+	</failure>
+</testcase>
+<testcase classname="com.polarion.usdp.persistence.tests.word.performance.WordPerformanceTests2" name="testEditWorkItem2" time="0.000">
+<failure message="uri: subterra:data-service:objects:/default/demolibrary${WorkItem}DEMOLIBRARY-46" type="com.polarion.platform.persistence.UnresolvableObjectException">com.polarion.platform.persistence.UnresolvableObjectException: uri: subterra:data-service:objects:/default/demolibrary${WorkItem}DEMOLIBRARY-46
+	</failure>
+</testcase>
+<testcase classname="com.polarion.usdp.persistence.tests.excel.performance.ExcelPerformanceTests" name="testEditWorkItem" time="5.006"/>
+<testcase classname="com.polarion.usdp.persistence.tests.xml.performance.XMLDocPerformanceTests" name="testParseWorkitemStressWrite10" time="0.472"/>
+<testcase classname="com.polarion.usdp.persistence.tests.xml.performance.XMLDocPerformanceTests" name="testEditWorkItem" time="7.403"/>
+<testcase classname="com.polarion.alm.projects.tests.ProjectLifecycleManagerPerformanceTest" name="testMarkAsProject" time="535.205"/>
+<testcase classname="com.polarion.platform.persistence.tests.performance.PermissionsPerformanceTest" name="testPerFieldNoGroupsPermissionsInstanceGlobal_1000x" time="0.145"/>
+<testcase classname="com.polarion.platform.persistence.tests.performance.PermissionsPerformanceTest" name="testNoGroupsKeysLocal_1000x" time="0.391"/>
+<testcase classname="com.polarion.platform.persistence.tests.performance.PermissionsPerformanceTest" name="testWithGroupsKeysLocal_1000x" time="0.607"/>
+<testcase classname="com.polarion.platform.persistence.tests.performance.PermissionsPerformanceTest" name="testNoFieldsNoGroupsKeysGlobal_1000x" time="0.348"/>
+<testcase classname="com.polarion.platform.persistence.tests.performance.PermissionsPerformanceTest" name="testNoFieldsNoGroupsPermissionsInstanceGlobal_1000x" time="0.106"/>
+<testcase classname="com.polarion.platform.persistence.tests.performance.PermissionsPerformanceTest" name="testPerGroupPermissionsKeysGlobal_1000x" time="0.485"/>
+
+<testcase classname="com.polarion.platform.persistence.tests.performance.PermissionsPerformanceTest" name="testPerGroupPermissionsInstanceGlobal_1000x" time="0.165"/>
+<testcase classname="com.polarion.platform.persistence.tests.performance.PermissionsPerformanceTest" name="testPerFieldPerGroupPermissionsKeysGlobal_1000x" time="0.263"/>
+<testcase classname="com.polarion.platform.persistence.tests.performance.PermissionsPerformanceTest" name="testPerFieldPerGroupPermissionsInstanceGlobal_1000x" time="0.104"/>
+<testcase classname="com.polarion.platform.persistence.tests.performance.PermissionsPerformanceTest" name="testPerFieldNoGroupPermissionsKeysGlobal_1000x" time="0.235"/>
+<testcase classname="com.polarion.platform.repository.tests.JavaSvnDriverPerformanceTest" name="testExists100" time="0.627"/>
+<testcase classname="com.polarion.platform.repository.tests.JavaSvnDriverPerformanceTest" name="testIsFile100" time="0.617"/>
+<testcase classname="com.polarion.platform.repository.tests.JavaSvnDriverPerformanceTest" name="testIsFolder100" time="0.610"/>
+</testsuite>
+</testsuites>
