@@ -1,7 +1,7 @@
-/* Test #1 @wi.inits_1 COMP-557 DE Ää Öö ẞß Üü Zz */
+/* Test #1 @wi.inits_1 COMP-558 DE Ää Öö ẞß Üü Zz */
 #include<stdio.h>
 
-// Test #2 @wi.runs_2 COMP-557 i
+// Test #2 @wi.runs_2 COMP-558 i
 int i = 0;
 
 /* Test #3 @wi.resurrects_3 COMP-557 int_ptr */
