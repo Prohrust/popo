@@ -40,12 +40,12 @@ public class ModelSwitch<T> {
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * Test @wi.jjjj COMP-560 TEST 2
-	 */
+	 
 	public ModelSwitch() {
 		if (modelPackage == null) {
 			modelPackage = ModelPackage.eINSTANCE;
 		}
-	}
+	}*/
 
 	/**
 	 * Calls <code>caseXXX</code> for each class of the model until one returns a non null result; it yields that result.
@@ -226,14 +226,14 @@ public class ModelSwitch<T> {
 	 * <!-- begin-user-doc -->
 	 * This implementation returns null;
 	 * returning a non-null result will terminate the switch, but this is the last case anyway.
-	 * <!-- end-user-doc -->
+	 * Test @wi.jjjj COMP-560 TEST 3
 	 * @param object the target of the switch.
 	 * @return the result of interpreting the object as an instance of '<em>EObject</em>'.
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject)
 	 * @generated
-	 */
+	 
 	public T defaultCase(EObject object) {
 		return null;
-	}
+	}*/
 
 } //ModelSwitch
