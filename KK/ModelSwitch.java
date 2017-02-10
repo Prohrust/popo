@@ -7,7 +7,12 @@
 package org.eclipse.gef.examples.shapes.emf.model.util;
 
 import java.util.List;
-
+/**
+ * <copyright>
+ * </copyright>
+ *
+ * Test @wi.jjjj COMP-560 TEST 1_2
+ */
 import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.EObject;
 
