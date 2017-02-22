@@ -1,0 +1,13 @@
+/**
+ * @width: width in pixels. Not a link.
+ *
+ * @wi.test COMP-566
+ * @wi COMP-567
+ */
+int getWidth();
+
+static struct resource s3c2410_uart2_resource[] = {  
+ [0] = DEFINE_RES_NAMED(IRQ_S3CUART_RX2, \
+         IRQ_S3CUART_ERR2 - IRQ_S3CUART_RX2 + 1, \
+         NULL, IORESOURCE_IRQ)
+};
